@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pngtree-image.jpg');
+	background-size: cover;
+	background-position: center;
+    background-color: #e0beed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: transparent;
+	border: 2px solid rgba(255,255,255,.2);
+	backdrop-filter: blur(20px);
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-align: center;
+    opacity: 0.9;
+}
+
+h2 {
+    color: #042c32;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #063818;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #065631;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #05172b;
+}
